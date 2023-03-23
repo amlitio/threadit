@@ -4,6 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 import openai
 import tweepy
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
